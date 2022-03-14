@@ -1,30 +1,52 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='./CSS/main.css'>
-    
-</head>
-<body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./CSS/main.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">WebSiteName</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="./Pages/about.html">About</a></li>
+          <li><a href="./Pages/services.html">Services</a></li>
+          <li><a href="./Pages/contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
     <div>
-        <p>First Name</p>
-        <input type="text" id="textName">
-        <p>Last Name</p>
-        <input type="text" id="textSurname">
-        <p>Email</p>
-        <input type="text" id="textEmail">
-        <p>Cell Number</p>
-        <input type="text" id="textNumber">
+      <p>First Name</p>
+      <input type="text" id="textName" />
+      <p>Last Name</p>
+      <input type="text" id="textSurname" />
+      <p>Email</p>
+      <input type="text" id="textEmail" />
+      <p>Cell Number</p>
+      <input type="text" id="textNumber" />
     </div>
 
     <div>
-        <button type=" button" id ="myBtn"> Submit Form</button>
-
+      <button type=" button" id="myBtn">Submit Form</button>
     </div>
-   <script src= './JS/main.js'></script>
-</body>
+    <script src="./JS/main.js"></script>
+  </body>
 </html>
-
